@@ -17,5 +17,15 @@ public static void main(String[] args) {
 	
 	System.out.println("이름 : "+name);
 	System.out.println("입력 수 :"+num);
+	
+	int n1 = 10;
+	int n2 = ++n1;
+	System.out.println("n1 : "+n1);
+	System.out.println("n2 : "+n2);
+	
+	n1 = 10;
+	n2 = n1++;
+	System.out.println("n1 : "+n1);
+	System.out.println("n2 : "+n2);
 }
 }
